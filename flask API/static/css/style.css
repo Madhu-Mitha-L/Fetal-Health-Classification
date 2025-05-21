@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    background-image: url('baby.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.login {
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Adjust the width as needed */
+    overflow: hidden; /* Hide any content that overflows */
+    font-size: 20px;
+}
+
+.login h1 {
+    margin: 5px;
+    font-family: 'algerian', cursive;
+    font-size: 30px;
+    text-align: center;
+    color:yellow;
+}
+
+.login input {
+    width: calc(50% - 20px); /* Adjust the width of the input fields */
+    padding: 10px;
+    margin: 5px 0; /* Adjust the margin */
+    border: 2px solid cyan;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    background-color: rgba(255, 255, 255, 0.5);/* Include padding and border in the element's total width */
+ 
+}
+.login input::placeholder {
+    color: #40085e;
+    font-weight: bold; /* Change to your desired color */
+     
+}
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:20px;
+    margin-top: 12px;
+}
+
+.login button:hover {
+    background-color: #f00e5a; /* Cyan glow when hovered */
+}

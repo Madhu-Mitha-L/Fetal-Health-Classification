@@ -31,6 +31,11 @@ The API processes this input, applies the trained **Random Forest** model, and r
 - A **prediction class**: `Normal`, `Suspect`, or `Pathological`
 - A **confidence score** representing the model’s certainty
 
+## OUTPUT OF THE FETAL HEALTH CLASSIFICATION
+
+<img width="1880" height="913" alt="image" src="https://github.com/user-attachments/assets/7a200da0-a9ee-48e7-b09e-26879a78449b" />
+
+
 <!-- Example input to help users understand how to use the API -->
 ## 📥 Sample Request
 
@@ -59,3 +64,4 @@ The API processes this input, applies the trained **Random Forest** model, and r
   "histogram_variance": 200,
   "histogram_tendency": 0.5
 }
+
